@@ -1,0 +1,169 @@
+.nombre{
+    text-decoration: none;
+    font-family: 'Great Vibes', cursive;
+    font-size: 3rem;
+  }
+
+  header #nombreUser {
+    /* background-color: #187498; */
+    background-color: #e75ae2;
+    /* width: 100vw; */
+    width: 100%;
+    /* height: 2vh; */
+    height: 20px;
+  }
+
+  header #sangre {
+    /* background-color: #eb5353; */
+    background-color: #d344cf;
+    /* width: 100vw; */
+    width: 100%;
+    /* height: 2vh; */
+    height: 20px;
+  }
+  
+  /* header #paz {
+    background-color: white;
+    width: 100%;
+    height: 1vh;
+  } */
+
+  .menu-i{
+    /* background-color: #0044AA; */
+    background-color: #fe495f;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 20px;
+    height: 40px;
+    margin: 10px 0px 20px 0px;
+    padding: 10px;
+    width: 40px;
+  }
+
+  nav {
+    margin: 0%;
+    width: 100%;
+    /* background-color: #36ae7c; */
+    background-color: #d344cf;
+  }
+
+  nav div .nav {
+    margin: 0%;
+    padding: 0.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-size: 1rem;
+  }
+  
+  nav .nav-item {
+    padding: 0.25rem;
+    list-style-type: none;
+    text-align: center;
+  }
+  
+  nav .nav-link {
+    color: black;
+    text-decoration: none;
+  }
+  
+  nav .nav-control {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+  }
+
+  nav .nav-control:hover {
+    /* background-color: #1f7a54; */
+    background-color: #ab18a9;
+  }
+
+  nav .nav-control:hover .nav-object {display: block;}
+  nav .nav-control .nav-object {
+    position: absolute;
+    /* width: 100%; */
+    /* width: 98.8%; */
+    width: 97%;
+    display: none;
+    /* background-color: #1f7a54; */
+    background-color: #ab18a9;
+  }
+
+  nav .nav-object ul li { 
+    display: block; 
+  }
+  
+  nav .nav-object ul li a {
+    display:block !important;
+    color: white;
+  }
+  
+  nav .nav-object ul li:hover {
+    background: #36ae7c;
+    color: #ccc;
+  }
+
+  @media screen and (min-width: 630px){
+    nav .nav-control .nav-object {
+      width: 97.5%;
+    }
+  }
+
+  @media screen and (min-width: 714px){
+    nav .nav-control .nav-object {
+      width: 98.5%;
+    }
+  }
+  /* @media (min-width: 480px) {
+    nav .nav {
+      font-size: 1rem;
+    }
+  
+    nav .nav-control .burger-menu{
+      display: none;
+    }
+  
+    nav .nav-control .nav-object {
+      position: relative;
+      display: block;
+      background-color: #ab18a9;
+      width: 100%;
+    }
+  
+    nav .nav-control .nav-object:hover{
+      background-color: #ab18a9;
+    }
+  
+    nav .nav-object ul li { 
+      display: block; 
+      width: auto;
+    }
+  
+    main{
+      height: 50%;
+    }
+    main section article .nav {
+      font-size: 2rem;
+    }
+  
+    main section article .nav .descripcion{
+      opacity: 1;
+      font-size: 1rem;
+    }
+  
+    main section .comentarios {
+      font-size: 1.5rem;
+    }
+  
+    main section .carrito-item {
+      padding: 2vh;
+    }
+  
+    main section .login {
+      height: 70vh;
+    }
+
+    main section article img {
+      width: 160px;
+    }
+  } */
